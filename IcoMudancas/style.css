@@ -137,6 +137,30 @@ a:hover {
   font-size: 40px;
   z-index: 1001;
 }
+grid-template-columns: 1fr 1fr;
+/*====SERVICES====*/
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2vw;
+  padding: 0 2vw;
+}
+
+.img {
+  width: 500px;
+  height: 450px;
+  border: 10px solid #F0F8FF;
+  box-shadow: 5px 5px 5px #0006;
+  border-radius: 2%;
+  flex-grow: 1;
+}
+
+.img img{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 /*====FOOTER====*/
 @import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
