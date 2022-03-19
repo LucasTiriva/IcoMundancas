@@ -7,9 +7,7 @@
 }
 /*====VARIAVEIS====*/
 :root {
-  --base-color: #6E7076;
-  --first-color: #5333ed;
-  --second-color: #2cd4d9;
+  --base-color: #3586ff;
 }
 
 /*====MENU, NAVBAR E LOGO====*/
@@ -18,7 +16,7 @@
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial sans-serif;
-  background: #3586ff;
+  background: var(--base-color);
   height: 8vh;
   z-index: 1001;
 }
@@ -57,7 +55,7 @@
     right: 0;
     width: 65vw;
     height: 92vh;
-    background: #3586ff;
+    background: var(--base-color);
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -137,8 +135,36 @@ a:hover {
   font-size: 40px;
   z-index: 1001;
 }
-grid-template-columns: 1fr 1fr;
+
 /*====SERVICES====*/
+.title {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  background: var(--base-color);
+  color: #fff;
+  opacity: 0.7;
+  font-size: 1.5rem;
+}
+
+.doit{
+  list-style: none;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.4rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-bottom: 20px;
+}
+
+.icons-doit {
+  border: 1px solid var(--base-color);
+}
+
 .img-container {
   display: flex;
   flex-wrap: wrap;
@@ -150,8 +176,8 @@ grid-template-columns: 1fr 1fr;
 .img {
   width: 500px;
   height: 450px;
-  border: 10px solid #F0F8FF;
-  box-shadow: 5px 5px 5px #0006;
+  border: 3px solid var(--base-color);
+  box-shadow: 2px 2px 5px #0006;
   border-radius: 2%;
   flex-grow: 1;
 }
@@ -175,7 +201,7 @@ grid-template-columns: 1fr 1fr;
 footer {
   position: relative;
   width: 100%;
-  background: #3586ff;
+  background: var(--base-color);
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
