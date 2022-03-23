@@ -148,22 +148,22 @@ a:hover {
   font-size: 1.5rem;
 }
 
+/*====CARDS====*/
 .cards {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  min-height: 100vh;
 }
 
 .list-cards {
   list-style: none;
 }
 
-.container {
+.container #container {
   padding: 20px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -187,6 +187,7 @@ a:hover {
   size: 100px;
 }
 
+/*====IMAGES====*/
 .img-container {
   display: flex;
   flex-wrap: wrap;
@@ -196,12 +197,13 @@ a:hover {
 }
 
 .img {
-  width: 500px;
-  height: 450px;
+  width: 30%;
+  height: 60%;
   border: 3px solid var(--base-color);
   box-shadow: 2px 2px 5px #0006;
   border-radius: 2%;
   flex-grow: 1;
+  object-fit: cover;
 }
 
 .img img{
@@ -217,7 +219,7 @@ a:hover {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  min-height: 100vh;
+  min-height: 60vh;
 }
 
 footer {
