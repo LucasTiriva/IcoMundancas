@@ -1,7 +1,31 @@
 # IcoMundancas
-site feito em HTML CSS e JavaScript
+Essa site está sendo meu primeiro projeto, em desenvolvimento.
 
-![image](https://user-images.githubusercontent.com/94218497/158359262-f28b3f56-9b00-4e5b-9cf3-69ad6822777c.png)
-![image](https://user-images.githubusercontent.com/94218497/158359224-af27aba6-f27f-4c5a-80e2-2909584f640d.png)
-![image](https://user-images.githubusercontent.com/94218497/158358957-162b1169-2517-46ed-80d4-9f13899eadae.png)
-![image](https://user-images.githubusercontent.com/94218497/158359000-cd82fb07-61db-4c47-a410-38cafc8d54bb.png)
+## Para Desktop
+![image](https://user-images.githubusercontent.com/94218497/159672617-e85748ff-a455-4554-8d2b-338f755cc988.png)
+![image](https://user-images.githubusercontent.com/94218497/159672695-ac22a8e9-d0f4-4625-a516-e9b382b94937.png)
+![image](https://user-images.githubusercontent.com/94218497/159672802-053c67c7-69b0-4a53-ad71-65305f915574.png)
+
+
+## Para Mobile
+![image](https://user-images.githubusercontent.com/94218497/159673073-52eeb379-9c76-4b95-a075-55d74bc17932.png)
+![image](https://user-images.githubusercontent.com/94218497/159673137-c36686f5-b519-4578-966f-648a779783bd.png)
+![image](https://user-images.githubusercontent.com/94218497/159673230-217057a2-3247-404f-88ea-c8086cc01747.png)
+![image](https://user-images.githubusercontent.com/94218497/159673281-202ba4d1-7a9a-41d4-bf5b-2ea886e19b2f.png)
+
+
+(EN)
+# IcoMundancas
+This site is being my first project, in development.
+
+## For Desktop
+![image](https://user-images.githubusercontent.com/94218497/159672617-e85748ff-a455-4554-8d2b-338f755cc988.png)
+![image](https://user-images.githubusercontent.com/94218497/159672695-ac22a8e9-d0f4-4625-a516-e9b382b94937.png)
+![image](https://user-images.githubusercontent.com/94218497/159672802-053c67c7-69b0-4a53-ad71-65305f915574.png)
+
+
+## For Mobile
+![image](https://user-images.githubusercontent.com/94218497/159673073-52eeb379-9c76-4b95-a075-55d74bc17932.png)
+![image](https://user-images.githubusercontent.com/94218497/159673137-c36686f5-b519-4578-966f-648a779783bd.png)
+![image](https://user-images.githubusercontent.com/94218497/159673230-217057a2-3247-404f-88ea-c8086cc01747.png)
+![image](https://user-images.githubusercontent.com/94218497/159673281-202ba4d1-7a9a-41d4-bf5b-2ea886e19b2f.png)
