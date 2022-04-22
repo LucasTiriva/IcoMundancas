@@ -12,7 +12,7 @@ class MobileNavbar {
     this.navLinks.forEach((link, index) => {
       link.style.animation
         ? (link.style.animation = "")
-        : (link.style.animation = `navLinkFade 0.3s ease forwards ${
+        : (link.style.animation = `navLinkFade 0.2s ease forwards ${
             index / 5 + 0.2
           }s`);
     });
@@ -42,3 +42,16 @@ const mobileNavbar = new MobileNavbar(
   ".nav-list li",
 );
 mobileNavbar.init();
+
+
+
+
+
+//const nav = document.querySelector('#home #services #about #contact')
+//const toogle = document.querySelectorAll('#home #services #about #contact')
+
+//for (const element of toogle) {
+//  element.addEventListener('click', function() {
+//    nav.classList.toogle('show')
+//  })
+//}
