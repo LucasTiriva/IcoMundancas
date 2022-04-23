@@ -43,15 +43,14 @@ const mobileNavbar = new MobileNavbar(
 );
 mobileNavbar.init();
 
+// Função para mudar o conteúdo de t2
+function modifyText() {
+  var t2 = document.getElementById("t2");
+  t2.firstChild.nodeValue = "three";
+}
 
-
-
-
-//const nav = document.querySelector('#home #services #about #contact')
-//const toogle = document.querySelectorAll('#home #services #about #contact')
-
-//for (const element of toogle) {
-//  element.addEventListener('click', function() {
-//    nav.classList.toogle('show')
-//  })
-//}
+// Função para adicionar uma espera de evento em t
+function load() {
+  var el = document.getElementById("t");
+  el.addEventListener("click", modifyText, false);
+}
